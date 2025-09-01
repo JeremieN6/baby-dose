@@ -6,6 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd())
   return {
     plugins: [vue()],
-    base: env.VITE_BASE_PATH || '/',
-}
+    // Utiliser un chemin relatif pour que le build fonctionne sur un hébergement mutualisé
+    base: env.VITE_BASE_PATH || '/projets/labo/babydose/',
+  }
 })

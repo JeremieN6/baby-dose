@@ -18,9 +18,9 @@
               <p class="mb-5 font-light text-gray-500 dark:text-gray-400">{{article.intro}}</p>
               <div class="flex justify-between items-center">
                   <div class="flex items-center space-x-4">
-                      <img class="w-7 h-7 rounded-full" src="/src/assets/images/moi.webp" alt="Jeremie N. avatar" />
+                      <img class="w-7 h-7 rounded-full object-cover mr-0" src="https://agence.jeremiecode.fr/assets/images/testimonials/img-4.jpg" alt="Amandine C. avatar" />
                       <span class="font-medium dark:text-white">
-                          Jeremie N.
+                          Amandine C.
                       </span>
                   </div>
                   <RouterLink :to="{ name: 'BlogContent', params: { slug: article.slug } }">
