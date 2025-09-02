@@ -14,7 +14,7 @@
                     <p class="text-2xl font-medium text-gray-900 dark:text-white">
                         "Grâce à cette application, je n’ai plus à me prendre la tête pour savoir quelle quantité préparer pour le biberon. Avant, je faisais les calculs un peu au hasard et je n’étais jamais sûr d’avoir la bonne dose.… <br><br>
                         
-                        Avec cet outil, tout est clair : je renseigne simplement l’âge et le poids de mon bébé, et je sais instantanément la bonne quantité d’eau et de lait en poudre à utiliser.<br><br>
+                        Avec cet outil, tout est clair : je renseigne simplement les informations qu'il nécessaire, et je sais instantanément la bonne quantité d’eau et de lait en poudre à utiliser.<br><br>
 
                         Résultat : je gagne du temps, j’évite les erreurs, et je suis beaucoup plus serein au quotidien.
                         En plus, l’application est simple, intuitive et très rapide à utiliser. Franchement, un indispensable pour tous les jeunes parents !"</p>
