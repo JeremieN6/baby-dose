@@ -7,6 +7,6 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [vue()],
     // Base dépend de la variable d'environnement VITE_BASE_PATH
-    base: env.VITE_BASE_PATH || '/',
+    base: env.VITE_BASE_PATH || './',
   }
 })
