@@ -29,6 +29,7 @@ dist-ssr
 # Env
 .env
 .env.local
+.env.prod
 .env*
 
 # Local file
