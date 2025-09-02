@@ -16,7 +16,7 @@
             <h1
                 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                 Calculez la bonne dose en 2 clics 💉🍼</h1>
-                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Fais en sorte de savoir instantanément la quantité de lait à préparer. .
+                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Fais en sorte de savoir instantanément la quantité de lait à préparer.
                     L'outil prend en compte l'âge, le poids et la quantité de biberons pour t’aider à préparer une dose précise, simple et adaptée aux besoins du bébé.
                 </p>
             <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
