@@ -5,7 +5,7 @@
             <div class="flex justify-center items-center flex-col w-full mb-8 lg:mb-16">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Fonctionnalités de
                     BabyDose™ 👶</h2>
-                    <p class="text-gray-500 text-center sm:text-xl dark:text-gray-400">Fais en sorte de savoir instantanément la quantité de lait à préparer. .
+                    <p class="text-gray-500 text-center sm:text-xl dark:text-gray-400">Fais en sorte de savoir instantanément la quantité de lait à préparer.
                     L'outil prend en compte l'âge, le poids et la quantité de biberons pour t’aider à préparer une dose précise, simple et adaptée aux besoins du bébé.</p>
             </div>
             <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">

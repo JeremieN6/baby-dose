@@ -17,9 +17,6 @@
                 <RouterLink to="/fonctionnalites" class="mr-4 hover:underline md:mr-6 ">Fonctionnalités</RouterLink>
             </li>
             <li>
-                <RouterLink to="/#a-propos" class="mr-4 hover:underline md:mr-6 ">A Propos</RouterLink>
-            </li>
-            <li>
                 <RouterLink to="/blog" class="mr-4 hover:underline md:mr-6 ">Blog</RouterLink>
             </li>
             <li>

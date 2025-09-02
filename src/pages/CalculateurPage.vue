@@ -33,7 +33,7 @@
               </div>
 
               <div class="my-8">
-                <h2 class="text-lg font-medium mb-3 text-gray-900 dark:text-white">Volumes courants</h2>
+                <h2 class="text-lg font-medium mb-3 text-gray-900 dark:text-white">Volumes courants <span class="text-small">Optionnel</span> </h2>
                 <div class="flex flex-wrap gap-2">
                     <button 
                     v-for="vol in volumesCourants" 
@@ -86,8 +86,8 @@
               class="mt-10 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-6 text-gray-900 dark:text-white">
               <h2 class="text-lg font-semibold mb-3 text-gray-900 dark:text-white">ℹ️ Comment ça marche ?</h2>
               <p class="text-sm leading-relaxed text-gray-700 text-gray-900 dark:text-white">
-                Le calcul est basé sur le ratio indiqué (par défaut 30 ml = 1 dosette).  <br>
-                ⚠️ <strong>Pitié</strong>, vérifiez toujours le dosage recommandé sur la boîte de lait que vous utilisez.  <br>
+                Le calcul est basé sur le ratio indiqué (par défaut 30 ml = 1 dosette).  <br><br>
+                ⚠️ <strong>Pitié</strong>, vérifiez toujours le dosage recommandé sur la boîte de lait que vous utilisez.  <br><br>
                 Cette application vous aide à réduire le stress et à éviter les erreurs fréquentes lors de la préparation du biberon. (Je ne veux pas de problème)
               </p>
             </div>
