@@ -2,14 +2,14 @@
   RewriteEngine On
   RewriteBase /projets/labo/babydose/
 
-  # 1. Redirection canonique vers le sous-domaine (préserve le chemin interne après /projets/labo/babydose/)
+  # Redirection canonique (contexte répertoire) : toute requête arrivant via jeremiecode.fr vers ce dossier est envoyée vers le sous-domaine
   RewriteCond %{HTTP_HOST} ^(www\.)?jeremiecode\.fr$ [NC]
-  RewriteRule ^projets/labo/babydose/?(.*)$ https://babydose.jeremiecode.fr/$1 [R=301,L]
+  RewriteRule ^(.*)$ https://babydose.jeremiecode.fr/$1 [R=301,L]
 
-  # 2. (Si redirection désactivée plus tard) Fallback SPA: tout vers index.html sauf fichiers/dossiers existants
+  # Fallback SPA (si jamais la redirection est retirée) :
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /projets/labo/babydose/index.html [L]
+  RewriteRule ^ index.html [L]
 </IfModule>
 
 # Compression Gzip
