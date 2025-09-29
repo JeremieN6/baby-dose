@@ -9,54 +9,53 @@ import PolitiqueConfidentialitePage from './pages/PolitiqueConfidentialitePage.v
 import Success from './pages/stripe/Success.vue'
 import Cancel from './pages/stripe/Cancel.vue'
 
-
 const routes = [
   { path: '/', component: LandingPage,
     meta: {
-      title: 'Calcul ton TJM avec Tajimo',
-      description: 'Obtenez instantanément le temps et la température de cuisson de vos aliments au air fryer grâce à notre IA.'
+      title: 'BabyDose | Outil de comptage et calcul de doses pour bébé',
+      description: 'Calculez facilement les doses pour votre bébé selon le poids et l’âge. Outil simple, clair et pratique pour les parents.'
     }
    },
   { path: '/calculateur', component: CalculateurPage,
     meta: {
-      title: 'Calcul ton TJM avec Tajimo | Calculateur',
-      description: 'Obtenez instantanément le temps et la température de cuisson de vos aliments au air fryer grâce à notre IA.'
+      title: 'BabyDose | Calculateur de dose',
+      description: 'Entrez le poids et l’âge de votre enfant pour obtenir un calcul de dose indicatif. À utiliser avec précaution et avis médical.'
     }
    },
   { path: '/fonctionnalites', component: FonctionnalitePage,
     meta: {
-      title: 'Calcul ton TJM avec Tajimo | Fonctionnalités',
-      description: 'Obtenez instantanément le temps et la température de cuisson de vos aliments au air fryer grâce à notre IA.'
+      title: 'BabyDose | Fonctionnalités',
+      description: 'Découvrez les fonctionnalités de BabyDose : calcul de dose, unités compatibles, arrondis, historique et partage.'
     }
    },
    { path: '/blog', component: BlogPage,
     meta: {
-      title: 'Calcul ton TJM avec Tajimo | Blog',
-      description: 'Obtenez instantanément le temps et la température de cuisson de vos aliments au air fryer grâce à notre IA.'
+      title: 'BabyDose | Blog',
+      description: 'Conseils et articles autour du calcul de doses pédiatriques, bonnes pratiques et sécurité pour les parents.'
     }
    },
    { path: '/blog/:slug', name: 'BlogContent', component: BlogContentPage,
     meta: {
-      title: 'Calcul ton TJM avec Tajimo | Blog Content',
-      description: 'Obtenez instantanément le temps et la température de cuisson de vos aliments au air fryer grâce à notre IA.'
+      title: 'BabyDose | Article',
+      description: 'Lecture d’un article du blog BabyDose : informations et conseils pour le comptage de doses chez le nourrisson.'
     }
    },
    { path: '/politique-de-confidentialite', component: PolitiqueConfidentialitePage,
     meta: {
-      title: 'Calcul ton TJM avec Tajimo | Politique de Confidentialité',
-      description: 'Obtenez instantanément le temps et la température de cuisson de vos aliments au air fryer grâce à notre IA.'
+      title: 'BabyDose | Politique de confidentialité',
+      description: 'En savoir plus sur la collecte, l’utilisation et la protection de vos données sur BabyDose.'
     }
    },
    { path: '/success', component: Success,
     meta: {
-      title: 'Calcul ton TJM avec Tajimo | Success',
-      description: 'Obtenez instantanément le temps et la température de cuisson de vos aliments au air fryer grâce à notre IA.'
+      title: 'BabyDose | Paiement réussi',
+      description: 'Merci pour votre soutien ! Votre paiement a été confirmé et votre accès est activé.'
     }
    },
    { path: '/cancel', component: Cancel,
     meta: {
-      title: 'Calcul ton TJM avec Tajimo | Cancel',
-      description: 'Obtenez instantanément le temps et la température de cuisson de vos aliments au air fryer grâce à notre IA.'
+      title: 'BabyDose | Paiement annulé',
+      description: 'Le paiement a été annulé. Vous pouvez réessayer à tout moment depuis la page de souscription.'
     }
    },
 ]
@@ -72,8 +71,8 @@ if (import.meta.env.VITE_ENABLE_BYPASS === 'true') {
     name: 'Bypass',
     component: BypassPage,
     meta: {
-      title: 'Calcul ton TJM avec Tajimo | Calculateur Admin',
-      description: 'Obtenez instantanément le temps et la température de cuisson de vos aliments au air fryer grâce à notre IA.'
+      title: 'BabyDose | Calculateur (mode admin)',
+      description: 'Accès administrateur au calculateur de dose pour tests et vérifications.'
     }
   });
 }
